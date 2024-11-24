@@ -6,21 +6,21 @@ This is a simple interactive quiz application built using HTML, CSS, and JavaScr
 
 # Features
 
-Timed Quiz: Each question has a 15-second timer.
+Quiz Time: Each question has a 15-second timer. When the timer runs out, you will be shown the correct answer and gain no points.
 
-Interactive UI: The quiz interface is interactive, with start, quit, and restart options.
+UI: The quiz interface is interactive, with start, quit, next question, timer progress bar, and restart options.
 
-Score Calculation: Users receive points based on the number of correct answers.
+Score Calculation: At the end of the quiz it will state how many correct answers you achieved out of how many wrong answers you achieved.
 
-Result Display: At the end of the quiz, users are shown their score and a crown icon indicating the completion.
+Result Display: At the end of the quiz, it displays You've completed the Quiz! and nice , You got x out of x. You have an option to either replay or quit the quiz.
 
 # Technologies Used
 
-HTML: Structure of the app.
+13.9% HTML: Structure of the app.
 
-CSS: Styling the app with responsive design.
+30.9% CSS: Styling the app with responsive design.
 
-JavaScript: Logic for quiz functionality, including dynamic question and option insertion, timer, and scoring.
+55.2% JavaScript: Logic for quiz functionality, including dynamic question and option insertion, timer, and scoring.
 
 # File Structure
 
@@ -33,7 +33,7 @@ JavaScript: Logic for quiz functionality, including dynamic question and option 
    |   |-- questions.js   # This consists of multiple quesitons each with one correct answer and three wrong answers.
    |   |-- quizApp.js     # This consists of the timer, button functions, and score.
    | 
-   | - .gitignore         # This file is empty im not sure why.
+   | - .gitignore         # Used to tell Git which files and directories to ignore when commiting the repository.
    | - index.html         # This is the landing page that creates all of the visual elements.
 
 # Setup Instructions
@@ -80,9 +80,11 @@ It should look like this
   },
 
 # You can create as many questions and answers as you want just make sure to 
-# assign the correct number for the question.
+# assign the correct sequential number for the question. You can add however many questions you want!
 
 
+# QuizApp code functions
+Please refer to the QuizApp.js file and read the code documentations for explinations on how it works.
 
 # Contributing
 
