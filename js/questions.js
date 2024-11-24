@@ -56,5 +56,16 @@ let questions = [
       "eXamine Multiple Language",
     ],
   },
+  {
+    numb: 6,
+    question: "What does .py stand for?",
+    answer: "Python File",
+    options: [
+      "JavaScript File",
+      "Python File",
+      "Moodle File",
+      "Word Document File",
+    ],
+  },
   // Duplicate the object declaration and initialization above for more questions
 ];
