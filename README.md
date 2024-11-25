@@ -21,7 +21,7 @@ Result Display: At the end of the quiz, it displays You've completed the Quiz! a
 30.9% CSS: Styling the app with responsive design.
 
 55.2% JavaScript: Logic for quiz functionality, including dynamic question and option insertion, timer, and scoring.
-
+ss
 # File Structure
 
 # DemoQuizApp
